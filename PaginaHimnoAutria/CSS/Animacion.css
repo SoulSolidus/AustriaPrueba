@@ -1,0 +1,35 @@
+@keyframes logo-animacion {
+    0% {
+        position: relative;
+        bottom: 1000px;
+    }
+    100% {
+      position: relative;
+      bottom: 0px;
+    }
+  }
+
+  #logo{
+    animation-name: logo-animacion;
+    animation-duration: 3s;
+  }
+
+  @keyframes titulo-animacion {
+    0% {
+
+        opacity: 0%;
+    }
+    50% {
+
+        opacity: 0%;
+    }
+    100% {
+
+      opacity: 100%;
+    }
+  }
+
+  #titulo{
+    animation-name: titulo-animacion;
+    animation-duration: 3s;
+  }
