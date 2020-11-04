@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Bree+Serif|Raleway');
 
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Maven+Pro&family=Open+Sans&family=Staatliches&display=swap');
 
 * {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 
 *::selection{
-    background: rgb(0, 209, 94);
+    background: rgb(178, 209, 0);
     color: white;
     text-shadow: 1px 1px #000;
 }
@@ -89,38 +93,41 @@ cursive{
     text-shadow: 3px 3px rgb(161, 0, 0);
 }
 
-#estrofa {
-    
+#estrofa5 {
+    color: red;
 }
 
-#estrofa {
-    
+#estrofa6 {
+    font-size: 30px;
 }
 
-#estrofa {
-    
+#estrofa7 {
+    letter-spacing: 3px;
 }
 
-#estrofa {
-    
+#estrofa8 {
+    font-family: 'Turret Road';
+    font-weight: 900;
+    font-size: 30px;
 }
 
-#estrofa {
-    
+#estrofa9 {
+    text-align: center;
+    line-height: 30px;
 }
 
-#estrofa {
-    
+#estrofa10 {
+    text-align: right;
+    line-height: 40px;
+    letter-spacing: 3px;
 }
 
-#estrofa {
-    
+#estrofa12 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
-
-#estrofa {
-    
-}
-
 
 .parent{
     border: 2px dashed black;
@@ -140,4 +147,16 @@ h2{
 }
 hr{
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .header>h1{
+        font-size: 30px;
+    }
+    .header>p{
+        font-size: 10px;
+    }
+    .parent{
+        margin-bottom: 20px;
+    }
 }
